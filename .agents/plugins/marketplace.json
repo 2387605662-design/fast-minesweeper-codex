@@ -1,0 +1,20 @@
+{
+  "name": "fast-minesweeper-local",
+  "interface": {
+    "displayName": "Fast Minesweeper"
+  },
+  "plugins": [
+    {
+      "name": "fast-minesweeper",
+      "source": {
+        "source": "local",
+        "path": "./plugins/fast-minesweeper"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "fast-minesweeper",
+  "version": "0.1.0",
+  "description": "Inspect and play the classic Windows XP Minesweeper from Codex using window messages.",
+  "extensions": {
+    "com.openai": {
+      "requires_local_executor": true
+    }
+  }
+}
